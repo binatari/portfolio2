@@ -314,14 +314,25 @@ main {
 }
 
 .project-image-1 {
-    background-image: url(./images/culture.gif);
+    background-image: url(./images/dashgif.gif);
     background-position: right;
 }
 
 .project-image-2 {
+    background-image: url(./images/xgif.gif);
+    background-position: center;
+}
+
+.project-image-3 {
+    background-image: url(./images/chat\ app.jpg);
+    background-position: center;
+}
+
+.project-image-4 {
     background-image: url(./images/giphy.gif);
     background-position: center;
 }
+
 
 .project-image::after {
     z-index: 50;
