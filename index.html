@@ -5,129 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bina Akene</title>
-    <link rel="icon" href="./images/a.png" type="image/icon type">
+    <link rel="icon" href="./images/a.png" type="image/icon type" />
     <link rel="stylesheet" href="index.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <div id='container'>
-    <nav class="navbar">
-      <img src="./images/a.png" alt="logo" class="nav-logo reveal"/>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#aboutsection" class="nav-link about">About me</a>
+    <div id="container">
+      <nav class="navbar">
+        <img src="./images/a.png" alt="logo" class="nav-logo reveal" />
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#aboutsection" class="nav-link about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projectsection" class="nav-link projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contactsection" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./images/binatari-resume.pdf" download="bina-resume" class="nav-link resume">resume</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="socials sidebar">
+        <li class="social-app github">
+          <a href="#"><img src="./images/github.png" alt="github" /></a>
         </li>
-        <li class="nav-item">
-          <a href="#projectsection" class="nav-link projects">projects</a>
+        <li class="social-app instagram">
+          <a href="#"><img src="./images/instagram.png" alt="instagram" /></a>
         </li>
-        <li class="nav-item">
-          <a href="#contactsection" class="nav-link contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="./images/a.png" class="nav-link resume">resume</a>
-        </li>
-        
       </ul>
-    </nav>
-    <ul class="socials sidebar">
-      <li class="social-app github"><a href="#"><img src="./images/github.png" alt="github"/></a></li>
-      <li class="social-app instagram"><a href="#"><img src="./images/instagram.png" alt="instagram"/></a></li>
-    </ul>
-    <header>
+      <header>
         <div class="header-intro">
           <h1 class="description"><span>front-end</span> developer</h1>
           <div class="image-background">
-          <img src="./images/tablet.png" alt="binatari" class="my-image">
+            <img src="./images/tablet.png" alt="binatari" class="my-image" />
+          </div>
         </div>
-      </div>
-    </header>
-    <main>
-      <section class="about-me" id="aboutsection">
-        <h2>About me</h2>
-        <p class="about-text reveal" data-scroll>
-          Hello! My name is binatari akene. i'm a frontend developer 
-          with a passion for design, development and dad jokes. i am pro-efficient in html, css, javascript, react and a host of other technologies. Thank you for checking out my portfolio and i look forward to working with you.
-        </p>
-        <div class="tech-stack">
-          <ul class="stack-list">
-          <li class="stack-item"><img src="./images/html.png" alt="stack-images" class="stack-img hypertext"></li>
-          <li class="stack-item"><img src="./images/css.png" alt="stack-images"  class="stack-img css"></li>
-          <li class="stack-item"><img src="./images/javascript.png" alt="stack-images"  class="stack-img javascript"></li>
-          <li class="stack-item"><img src="./images/react.png" alt="stack-images"  class="stack-img react"></li>
-         <li class="stack-item"><img src="./images/adobe-photoshop.png" alt="stack-images"  class="stack-img photoshop"></li>
-        </ul>
-      </div>
-      </section>
-      <section class="projects" id="projectsection">
+      </header>
+      <main>
+        <section class="about-me" id="aboutsection">
+          <h2>About me</h2>
+          <p class="about-text reveal" data-scroll>
+            Hello! My name is binatari akene. i'm a frontend developer with a
+            passion for design, development and dad jokes. i am pro-efficient in
+            html, css, javascript, react and a host of other technologies. Thank
+            you for checking out my portfolio and i look forward to working with
+            you.
+          </p>
+          <div class="tech-stack">
+            <ul class="stack-list">
+              <li class="stack-item">
+                <img
+                  src="./images/html.png"
+                  alt="stack-images"
+                  class="stack-img hypertext"
+                />
+              </li>
+              <li class="stack-item">
+                <img
+                  src="./images/css.png"
+                  alt="stack-images"
+                  class="stack-img css"
+                />
+              </li>
+              <li class="stack-item">
+                <img
+                  src="./images/javascript.png"
+                  alt="stack-images"
+                  class="stack-img javascript"
+                />
+              </li>
+              <li class="stack-item">
+                <img
+                  src="./images/react.png"
+                  alt="stack-images"
+                  class="stack-img react"
+                />
+              </li>
+              <li class="stack-item">
+                <img
+                  src="./images/adobe-photoshop.png"
+                  alt="stack-images"
+                  class="stack-img photoshop"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="projects" id="projectsection">
           <div class="project-item first-project">
-              <div class="text-block reveal">
-              <h2>Dashboard</h2>
-              <p class="project-description">A fully functioning dashboard displaying current exchange rate, and cryptocurrency information together with a currency converter.</p>
-           
+            <div class="text-block reveal">
+              <h2>Hagglex Cryptocurrency</h2>
+              <p class="project-description">
+                Hagglex is and all-in-one service where users can trade, buy and
+                sell cryptocurrencies, swap and hold their coins, solving the
+                problems of traditional payment systems by providing a platform
+                for instant payments and immediate crypto settlements.
+              </p>
+
               <ul class="project-tech">
-                  <li class="git-icon">
+                <!-- <li class="git-icon">
                       <a href="https://github.com/binatari/dashboard"><img src="./images/github.png" alt="repo"></a>
-                  </li>
-                  <li>
-                    <a href="https://dashcurr.netlify.app">live site</a>
-                  </li>
+                  </li> -->
+                <li>
+                  <a href="https://www.hagglex.com/">live site</a>
+                </li>
               </ul>
             </div>
             <div class="project-image project-image-1"></div>
           </div>
           <div class="project-item second-project reveal">
             <div class="text-block">
-                <h2>E-commerce Store</h2>
-                <p class="project-description">A fully fledged E-commerce store with cart and checkout capabilities, using stripe as a payment processing platform and commercejs as a CMS to host products</p>
-                <ul class="project-tech">
-                    <li class="git-icon">
+              <h2>Kwara state vehicle management system</h2>
+              <p class="project-description">
+                A challenging project, created for the kwara state internal
+                revenue system used to allocate and monitor vehicles and payments
+                across the state.
+              </p>
+              <ul class="project-tech">
+                <!-- <li class="git-icon">
                         <a href="https://github.com/binatari/ecommerce"><img src="./images/github.png" alt="repo"></a>
-                    </li>
-                    <li>
-                      <a href="https://x-store.netlify.app">live site</a>
-                    </li>
-                </ul>
-              </div>
-                <div class="project-image project-image-2"></div>
+                    </li> -->
+                <li>
+                  <a href="https://vms.fenixrms.com/account/login">live site</a>
+                </li>
+              </ul>
+            </div>
+            <div class="project-image project-image-2"></div>
           </div>
           <div class="project-item second-project reveal">
             <div class="text-block">
-                <h2>Chat app</h2>
-                <p class="project-description">A fully functioning chat or social media messsaging app with chat functionality, capable of creating private or public rooms.</p>
-                <ul class="project-tech">
-                    <li class="git-icon">
+              <h2>Sports reels</h2>
+              <p class="project-description">
+                Sports reels.io is a pioneer sports social media platform aiming
+                to streamline the recruitment and signing process involved in
+                the application and selection process of sportsmen and women
+              </p>
+              <ul class="project-tech">
+                <!-- <li class="git-icon">
                         <a href="https://github.com/binatari/chat"><img src="./images/github.png" alt="repo"></a>
-                    </li>
-                    <li>
-                      <a href="https://dashchat.netlify.app">live site</a>
-                    </li>
-                </ul>
-              </div>
-                <div class="project-image project-image-3"></div>
+                    </li> -->
+                <li>
+                  <a href="https://www.sportsreels.online/">live site</a>
+                </li>
+              </ul>
+            </div>
+            <div class="project-image project-image-3"></div>
           </div>
           <div class="project-item second-project reveal">
             <div class="text-block">
-                <h2>Simple website template</h2>
-                <p class="project-description">This was a fun project, i created to learn more about svg manipulation. the design was created using figma and photoshop</p>
-                <ul class="project-tech">
-                    <li class="git-icon">
-                        <a href="https://github.com/binatari/outdoors"><img src="./images/github.png" alt="repo"></a>
-                    </li>
-                    <li>
-                      <a href="https://binatari.github.io/outdoors/">live site</a>
-                    </li>
-                </ul>
-              </div>
-                <div class="project-image project-image-4"></div>
+              <h2>Simple website template</h2>
+              <p class="project-description">
+                This was a fun project, i created to learn more about svg
+                manipulation. the design was created using figma and photoshop
+              </p>
+              <ul class="project-tech">
+                <li class="git-icon">
+                  <a href="https://github.com/binatari/outdoors"
+                    ><img src="./images/github.png" alt="repo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://binatari.github.io/outdoors/">live site</a>
+                </li>
+              </ul>
+            </div>
+            <div class="project-image project-image-4"></div>
           </div>
-      </section>
-      
-      <section class="contact" id="contactsection">
-        <p>contact me: <a href="mailto:akenebina@gmail.com">akenebina@gmail.com</a></p>
-        <a href=""><img src="" alt=""></a>
-      </section>
-    </main>
-  </div>
+        </section>
+
+        <section class="contact" id="contactsection">
+          <p>
+            contact me:
+            <a href="mailto:akenebina@gmail.com">akenebina@gmail.com</a>
+          </p>
+          <a href=""><img src="" alt="" /></a>
+        </section>
+      </main>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
